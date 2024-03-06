@@ -1,7 +1,7 @@
 <?php
 	include 'includes/session.php';
 
-	$sql = "DELETE FROM votes";
+	$sql = "DELETE FROM vts";
 	if($conn->query($sql)){
 		$_SESSION['success'] = "Votes reset successfully";
 	}

@@ -9,11 +9,11 @@
   <div class="content-wrapper">
     <section class="content-header">
       <h1>
-        Voters List
+        Students List
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Voters</li>
+        <li class="active">View Students</li>
       </ol>
     </section>
     <!-- Main content -->
@@ -45,12 +45,18 @@
           <div class="box">
             <div class="box-header with-border">
               <a href="#addnew" data-toggle="modal" class="btn btn-primary btn-sm btn-flat"><i class="fa fa-plus"></i> New</a>
+              <a href="#reset" data-toggle="modal" class="btn btn-danger btn-sm btn-flat"><i class="fa fa-trash"></i> Clear Records</a>
             </div>
             <div class="box-body">
               <table id="example1" class="table table-bordered">
                 <thead>
                   <th style="display:none;">ID</th>
                   <th>Student Number</th>
+                  <th>Name</th>
+                  <th>Address</th>
+                  <th>Contact Number</th>
+                  <th>Age</th>
+                  <th>Course</th>
                   <th>Delete?</th>
                 </thead>
                 <tbody>
@@ -62,6 +68,11 @@
                         <tr>
                           <td style=\"display:none;\">".$row['id']."</td>
                           <td>".$row['studnum']."</td>
+                          <td>".$row['name']."</td>
+                          <td>".$row['address']."</td>
+                          <td>".$row['contact_number']."</td>
+                          <td>".$row['age']."</td>
+                          <td>".$row['course']."</td>
                           <td>
                             <button class='btn btn-danger btn-sm delete btn-flat' data-id='".$row['id']."'><i class='fa fa-trash'></i> Delete</button>
                           </td>
@@ -80,6 +91,7 @@
     
   <?php include 'includes/footer.php'; ?>
   <?php include 'includes/voters_modal.php'; ?>
+  <?php include 'includes/clear.php'; ?>
 </div>
 <?php include 'includes/scripts.php'; ?>
 <script>

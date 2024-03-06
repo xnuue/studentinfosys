@@ -12,14 +12,10 @@
     <ul class="sidebar-menu" data-widget="tree">
       <li class="header">REPORTS</li>
       <li class=""><a href="home.php"><i class="fa fa-dashboard"></i> <span>Main Panel</span></a></li>
-      <li class=""><a href="votes.php"><i class="glyphicon glyphicon-lock"></i> <span>Vote Log</span></a></li>
       <li class="header">MANAGE</li>
-      <li class=""><a href="voters.php"><i class="fa fa-users"></i> <span>Voters</span></a></li>
-      <li class=""><a href="positions.php"><i class="fa fa-tasks"></i> <span>Positions</span></a></li>
-      <li class=""><a href="candidates.php"><i class="fa fa-black-tie"></i> <span>Candidates</span></a></li>
+      <li class=""><a href="students.php"><i class="fa fa-users"></i> <span>View Students</span></a></li>
       <li class="header">SETTINGS</li>
-      <li class=""><a href="ballot.php"><i class="fa fa-file-text"></i> <span>Vote Preview</span></a></li>
-      <li class=""><a href="#config" data-toggle="modal"><i class="fa fa-cog"></i> <span>Election Name</span></a></li>
+      <li class=""><a href="#config" data-toggle="modal"><i class="fa fa-cog"></i> <span>Academic Year</span></a></li>
     </ul>
   </section>
 </aside>

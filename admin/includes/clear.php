@@ -9,8 +9,8 @@
             </div>
             <div class="modal-body">
               <div class="text-center">
-                  <p>RESET VOTES</p>
-                  <h4>This will delete all votes and counting back to 0.</h4>
+                  <p>CLEAR RECORDS</p>
+                  <h4>This will delete all record and counting back to 0.</h4>
               </div>
             </div>
             <div class="modal-footer">

@@ -15,7 +15,7 @@
                 ?>
                 <form class="form-horizontal" method="POST" action="config_save.php?return=<?php echo basename($_SERVER['PHP_SELF']); ?>">
                   <div class="form-group">
-                    <label for="title" class="col-sm-3 control-label">Title</label>
+                    <label for="title" class="col-sm-3 control-label">Academic Year</label>
 
                     <div class="col-sm-9">
                       <input type="text" class="form-control" id="title" name="title" value="<?php echo $title; ?>">

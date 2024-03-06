@@ -5,7 +5,7 @@
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title"><b>Add New Voter</b></h4>
+              <h4 class="modal-title"><b>Add New Student</b></h4>
             </div>
             <div class="modal-body">
               <form class="form-horizontal" method="POST" action="voters_add.php" enctype="multipart/form-data">
@@ -39,7 +39,9 @@
               <form class="form-horizontal" method="POST" action="voters_delete.php">
                 <input type="hidden" class="id" name="id">
                 <div class="text-center">
-                    <p>DELETE VOTER</p>
+                    <p>DELETE STUDENT RECORD?</p>
+                    <br>
+                    <p>Student Number:</p>
                     <h2 class="bold fullname"></h2>
                 </div>
             </div>

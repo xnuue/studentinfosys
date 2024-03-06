@@ -1,7 +1,7 @@
 <header class="main-header">
   <a href="#" class="logo">
     <span class="logo-mini  "><b>TCU</b></span>
-    <span class="logo-lg"><b>TCU</b> Voting System</span>
+    <span class="logo-lg"><b>TCU</b> Student InfoSys</span>
   </a>
   <nav class="navbar navbar-static-top">
     <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
